@@ -5,7 +5,7 @@ import PartnerItem from './utils/PartnerItem';
 
 const Partners = () => {
 	return (
-		<div className='w-full bg-background p-4 py-16 md:py-32'>
+		<div className='w-full bg-background p-4 py-16 lg:py-32'>
 			<div className='container mx-auto flex flex-col	gap-20 items-center justify-center'>
 				<SectionTitle
 					title='Our Partners'

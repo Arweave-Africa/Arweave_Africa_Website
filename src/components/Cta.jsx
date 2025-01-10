@@ -4,7 +4,7 @@ import pageImage from '../assets/Arweave_Landing_Page_Image.png';
 
 const Cta = () => {
 	return (
-		<div className='w-full bg-background p-4 py-16 md:py-32 relative'>
+		<div className='w-full bg-background p-4 py-16 lg:py-32 relative'>
 			<div className='container mx-auto flex flex-col	gap-20 items-center justify-center'>
 				<SectionTitle
 					title='Arweave Africa Empowering Data Permanence Across the Continent'
