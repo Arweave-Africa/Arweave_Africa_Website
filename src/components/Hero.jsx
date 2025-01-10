@@ -1,23 +1,22 @@
-import React from 'react';
 import pageLogo1 from '../assets/Arweave_Landing_Page_Logo.png';
 import pageLogo2 from '../assets/Arweave_Landing_Page_Logo_2.png';
 
 const Hero = () => {
 	return (
-		<section className='md:h-[60vh] h-[70vh]  bg-[rgba(28,28,28,0.95)]'>
+		<section className='md:h-[70vh] h-[80vh]  bg-[rgba(28,28,28,0.95)] '>
 			<div className='md:max-w-3xl xl:max-w-5xl container mx-auto flex flex-col items-center justify-center h-full relative px-4'>
 				<h1 className='text-4xl md:text-5xl  xl:text-7xl font-bold text-white mb-6 leading-snug  md:leading-snug xl:leading-normal'>
 					Permanent, Decentralised Internet for{' '}
 					<span className='text-primary'>Africa’s Future</span>
 				</h1>
-				<p className='text-lg md:text-2xl xl:text-4xl  text-gray leading-snug md:leading-relaxed xl:leading-normal'>
+				<p className='text-lg md:text-2xl xl:text-4xl  text-gray leading-snug md:leading-relaxed xl:leading-normal px-8'>
 					Empowering communities, creators, and developers to participate in
 					building the Permaweb
 				</p>
 				<img
 					src={pageLogo1}
 					alt='logo page'
-					className='absolute top-16 -right-8 w-24 md:w-28 xl:w-32'
+					className='absolute top-16 -right-4 w-24 md:w-28 xl:w-32'
 				/>
 				<img
 					src={pageLogo2}

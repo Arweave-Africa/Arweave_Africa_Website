@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../assets/Arweave_Logomark.png';
 
 const Header = () => {
