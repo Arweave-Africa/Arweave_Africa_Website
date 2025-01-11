@@ -1,12 +1,13 @@
-import './App.css'
+import { Route, Routes } from 'react-router';
+import './App.css';
+import Home from './pages/Home.jsx';
 
 function App() {
-
-  return (
-    <div className='h-screen w-full bg-black flex items-center justify-center'>
-      <h1 className='text-4xl font-bold text-orange-700'>Arweave Africa Official Website coming soon </h1>
-    </div>
-  )
+	return (
+		<Routes>
+			<Route index element={<Home />} />
+		</Routes>
+	);
 }
 
-export default App
+export default App;
