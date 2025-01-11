@@ -2,47 +2,21 @@ import logo from '../assets/Arweave_Logomark.png';
 
 const Footer = () => {
 	return (
-		<div className='w-full bg-secondary p-4 lg:py-20'>
+		<div className='w-full flex items-center justify-between bg-secondary p-4 lg:py-20'>
 			<div className='mb-12'>
 				<img src={logo} alt='' className='w-32 md:w-44 xl:w-52' />
 			</div>
-			<div className='max-w-6xl mx-auto flex flex-wrap text-white justify-start sm:justify-evenly items-start '>
-				<ul className='flex flex-col justify-start items-start gap-2 w-1/2 sm:w-1/3 py-4'>
-					<h4>Join Us</h4>
-					<li className='text-gray font-light'>
-						<a href=''>Instagram</a>
+			<div className='flex text-white justify-start items-start'>
+				<ul className='flex flex-col justify-start items-start gap-2 py-4'>
+					<h4>Resources</h4>
+					<li className='text-gray font-light hover:text-primary'>
+						<a href=''>Ao The Computer</a>
 					</li>
-					<li className='text-gray font-light'>
-						<a href=''>Slack</a>
-					</li>
-					<li className='text-gray font-light'>
-						<a href=''>Twitter</a>
-					</li>
-					<li className='text-gray font-light'>
-						<a href=''>Telegram</a>
-					</li>
-				</ul>
-
-				<ul className='flex flex-col justify-start items-start gap-2 w-1/2 sm:w-1/3 py-4'>
-					<h4>Resource</h4>
-					<li className='text-gray font-light'>
-						<a href=''>Blog</a>
-					</li>
-					<li className='text-gray font-light'>
+					<li className='text-gray font-light hover:text-primary'>
 						<a href=''>Github</a>
 					</li>
-					<li className='text-gray font-light'>
-						<a href=''>Community</a>
-					</li>
-				</ul>
-
-				<ul className='flex flex-col justify-start items-start gap-2 w-1/2 sm:w-1/3 py-4'>
-					<h4>Security</h4>
-					<li className='text-gray font-light'>
-						<a href=''>Terms of Use</a>
-					</li>
-					<li className='text-gray font-light'>
-						<a href=''>Privacy Policy</a>
+					<li className='text-gray font-light hover:text-primary'>
+						<a href=''>Discord</a>
 					</li>
 				</ul>
 			</div>

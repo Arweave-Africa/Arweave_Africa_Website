@@ -11,7 +11,7 @@ const Hero = () => {
 				</h1>
 				<p className='text-lg md:text-2xl xl:text-4xl  text-gray leading-snug md:leading-relaxed xl:leading-normal px-8'>
 					Empowering communities, creators, and developers to participate in
-					building the Permaweb
+					building the <i className='text-primary'>Permaweb</i>
 				</p>
 				<img
 					src={pageLogo1}
