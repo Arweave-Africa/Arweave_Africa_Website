@@ -16,7 +16,7 @@ const Hero = () => {
 				<img
 					src={pageLogo1}
 					alt='logo page'
-					className='absolute top-16 -right-4 w-24 md:w-28 xl:w-32'
+					className='absolute top-16 -right-14 w-24 md:w-28 xl:w-32'
 				/>
 				<img
 					src={pageLogo2}

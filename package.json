@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "npm run build && permaweb-deploy --ant-process $DEPLOY_ANT_PROCESS_ID",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "permaweb-deploy": "^1.1.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router": "^7.1.1"
