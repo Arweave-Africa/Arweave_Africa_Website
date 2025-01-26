@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "npm run build && permaweb-deploy --ant-process $DEPLOY_ANT_PROCESS_ID",
+    "deploy": "npm run build && permaweb-deploy --ant-process FF-iOaKGJqSh2MZ9pFPK9J1fT4RlGEvxrwIpKIj24t4",
     "lint": "eslint .",
     "preview": "vite preview"
   },
