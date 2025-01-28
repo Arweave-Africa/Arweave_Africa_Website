@@ -3,8 +3,8 @@ import SectionTitle from './utils/SectionTitle';
 
 const Community = () => {
 	return (
-		<div className='w-full bg-background'>
-			<div className='container max-w-7xl mx-auto p-1 sm:p-4 py-16 lg:py-32'>
+		<div className='w-full bg-background px-12 md:py-28'>
+			<div className='container max-w-7xl mx-auto'>
 				<SectionTitle
 					title='Community Highlights'
 					description='Explore innovative applications created by our community using Arweave technology'

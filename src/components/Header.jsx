@@ -1,21 +1,18 @@
+import { Link } from 'react-router';
 import logo from '../assets/Arweave_Logomark.png';
 
 const Header = () => {
 	return (
-		<div className='w-screen m-0 py-6 bg-[rgba(28,28,28,0.95)] '>
-			<div className='container mx-auto px-4 flex items-center justify-between'>
-				<div>
-					<img src={logo} alt='' className='w-32 md:w-44 xl:w-52' />
-				</div>
+		<div className='w-screen h-20 flex items-center justify-center sm:justify-between px-4 bg-[rgba(28,28,28,0.95)]'>
+			<img src={logo} alt='' className='w-32 md:w-44 xl:w-52' />
 
-				<div
+				<Link to={"/gallery"}
 					className='
-				bg-primary hover:bg-transparent border-2 border-primary text-white hover:text-primary
-				cursor-pointer text-lg xl:text-xl font-medium  p-3 xl:p-4 px-6 rounded-lg transition-all duration-300 hidden md:block'
+				hover:bg-primary text-primary border-2 border-primary hover:text-white
+				cursor-pointer text-base lg:text-base font-medium px-3 py-2 rounded-lg transition-all duration-300 hidden sm:block'
 				>
 					View Gallery
-				</div>
-			</div>
+				</Link>
 		</div>
 	);
 };

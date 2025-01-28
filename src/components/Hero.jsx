@@ -3,8 +3,8 @@ import pageLogo2 from '../assets/Arweave_Landing_Page_Logo_2.png';
 
 const Hero = () => {
 	return (
-		<section className='md:h-[70vh] h-[80vh]  bg-[rgba(28,28,28,0.95)] '>
-			<div className='md:max-w-3xl xl:max-w-5xl container mx-auto flex flex-col items-center justify-center h-full relative px-4'>
+		<section className='w-full h-[60vh] lg:h-[100vh] 2xl:h-[70vh] bg-[rgba(28,28,28,0.95)] '>
+			<div className='w-full md:max-w-3xl xl:max-w-5xl container mx-auto flex flex-col items-center justify-center h-full relative px-4'>
 				<h1 className='text-4xl md:text-5xl  xl:text-7xl font-bold text-white mb-6 leading-snug  md:leading-snug xl:leading-normal'>
 					Permanent, Decentralised Internet for{' '}
 					<span className='text-primary'>Africa’s Future</span>
@@ -16,12 +16,12 @@ const Hero = () => {
 				<img
 					src={pageLogo1}
 					alt='logo page'
-					className='absolute top-16 -right-14 w-24 md:w-28 xl:w-32'
+					className='absolute top-8 right-0 w-24 md:w-28 xl:w-32'
 				/>
 				<img
 					src={pageLogo2}
 					alt='logo page'
-					className='absolute bottom-4 -left-12 w-24 md:w-28 xl:w-32'
+					className='absolute bottom-8 left-0 w-24 md:w-28 xl:w-32'
 				/>
 				<div
 					className='
