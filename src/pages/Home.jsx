@@ -4,7 +4,6 @@ import Cta from '../components/Cta.jsx';
 import Footer from '../components/Footer.jsx';
 import Hero from '../components/Hero.jsx';
 import Header from '../components/Header.jsx';
-import Partner from '../components/Partner.jsx';
 
 const Home = () => {
 	return (
@@ -16,7 +15,6 @@ const Home = () => {
 			<About />
 			<Community />
 			<Cta />
-			<Partner />
 			<Footer />
 		</>
 	);

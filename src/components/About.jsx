@@ -1,11 +1,13 @@
+import illustration from "../assets/Arweave_Landing_Page_Illustration.png"
+
 const About = () => {
 	return (
 		<div className='w-full bg-background pt-20 px-10'>
 			<div className='lg:container mx-auto flex flex-col md:flex-row justify-center items-center gap-8 md:gap-0'>
 				<div className='w-full sm:w-1/2 md:w-1/2 lg:p-4 flex justify-center'>
 					<img
-						src='/src/assets/Arweave_Landing_Page_Illustration.png'
-						alt=''
+						src={illustration}
+						alt='africa'
 						className='w-5/12 md:w-3/4 lg:w-full'
 					/>
 				</div>
@@ -14,9 +16,8 @@ const About = () => {
 						About Arweave Africa
 					</h2>
 					<p className='text-gray text-base md:text-xl 2xl:text-2xl text-center md:text-left font-light leading-normal md:leading-relaxed lg:leading-loose md:tracking-wider lg:tracking-wider'>
-						Arweave Africa is the community that supports Arweave adoption
-						within Africa by helping users adopt the technology to their use and
-						developers by supporting them
+						Arweave Africa is a community of developers and designers focusing on building tools and products on top of Arweave and AO. 
+						We create products that are useful for Arweave and AO adoption and usability.
 					</p>
 				</div>
 			</div>
