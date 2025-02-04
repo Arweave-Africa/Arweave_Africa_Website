@@ -3,7 +3,7 @@ import pageLogo2 from '../assets/Arweave_Landing_Page_Logo_2.png';
 
 const Hero = () => {
 	return (
-		<section className='w-full h-[60vh] lg:h-[calc(100vh-5rem)] 2xl:h-[70vh] bg-[rgba(28,28,28,0.95)]'>
+		<section className='w-full h-[60vh] lg:h-[calc(100vh-5rem)] bg-[rgba(28,28,28,0.95)]'>
 			<div className='w-full md:max-w-3xl xl:max-w-5xl container mx-auto flex flex-col items-center justify-center h-full relative px-4'>
 				<h1 className='text-4xl md:text-5xl  xl:text-7xl font-bold text-white mb-6 leading-snug  md:leading-snug xl:leading-normal'>
 					Permanent, Decentralised Internet for{' '}
