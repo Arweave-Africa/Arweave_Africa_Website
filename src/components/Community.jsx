@@ -5,7 +5,7 @@ const Community = () => {
 
 	const applications = [
 		{
-			name:"Branding",
+			name:"PermaBrand",
 			logo:"",
 			description:"Companies and communities brandkit repository",
 			link:"https://africa.ar.io/"
