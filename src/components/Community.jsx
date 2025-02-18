@@ -1,14 +1,15 @@
 import CommunityItem from './community/CommunityItem';
 import SectionTitle from './utils/SectionTitle';
+import permabrand_logo from '../assets/permabrand.svg'
 
 const Community = () => {
 
 	const applications = [
 		{
 			name:"PermaBrand",
-			logo:"",
+			logo:permabrand_logo,
 			description:"Companies and communities brandkit repository",
-			link:"https://africa.ar.io/"
+			link:"https://permabrand.ar.io/"
 		}
 	]
 
