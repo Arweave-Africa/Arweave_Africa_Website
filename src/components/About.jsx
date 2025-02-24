@@ -8,7 +8,7 @@ const About = () => {
 					<img
 						src={illustration}
 						alt='africa'
-						className='w-5/12 md:w-3/4 lg:w-full'
+						className='w-11/12 md:w-3/4 lg:w-full'
 					/>
 				</div>
 				<div className='flex flex-col items-center md:items-start w-full sm:w-1/2 md:w-1/2 lg:p-4 p-1 sm:pt-2 md:pt-4 lg:pt-8 pr-0 py-16 md:py-0'>

@@ -20,18 +20,18 @@ const Hero = () => {
 				<img
 					src={pageLogo1}
 					alt='logo page'
-					className='absolute top-2  2xl:-top-14 right-0 w-24 md:w-28 xl:w-32'
+					className='absolute top-2 md:-top-20  2xl:-top-14 right-0 w-16 md:w-28 xl:w-32'
 				/>
 				<img
 					src={pageLogo2}
 					alt='logo page'
-					className='absolute bottom-2 2xl:bottom-10 left-0 w-24 md:w-28 xl:w-32'
+					className='absolute bottom-2 2xl:bottom-10 left-0 w-16 md:w-28 xl:w-32'
 				/>
 				<div
 				onClick={handleNavigate}
 					className='
 				bg-primary hover:bg-transparent border-2 border-primary text-white hover:text-primary
-				cursor-pointer text-md font-medium p-2 px-8 rounded-lg transition-all duration-300 mt-8 md:mt-20'
+				cursor-pointer text-md lg:text-lg font-medium flex items-center justify-center h-12 sm:h-14 lg:h-16 w-52 lg:w-60 rounded-lg transition-all duration-300 mt-8 md:mt-20'
 				>
 				Let's build together
 				</div>
